@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+</head>
+<body>
+<style type="text/css">
+    label {
+        width: 300px;
+        float: left;
+    }
+</style>
+
+<h2>Анкета для вступників</h2>
+<p style="font-size: 16px">
+Шановний учаснику конкурсу «Вчитель-новатор»!<br/>
+Заповніть, будь ласка, реєстраційну анкету українською мовою.<br/>
+Прохання надати повну відповідь на всі поставлені запитання.<br/>
+Якщо ви подаєте декілька конкурсних робіт, будь ласка,<br/>
+заповніть дану анкету для кожної конкурсної роботи окремо.<br/>
+Дякуємо Вам за участь у конкурсі та бажаємо успіхів!<br/>
+    </p>
+
+   <form>
+   <ol>
+       <li><label>Прізвище: </label><input type="text" size="50" maxlength="50"/></li>
+       <li><label>Ім’я та по-батькові:</label><input type="text" size="50" maxlength="50"/></li>
+       <li><label>Назва конкурсної роботи</label><input type="text" size="50" maxlength="50"/></li>
+       <li>Номінація конкурсної роботи (список для вибору)
+           <select name="select">
+               <option value="Choosing a course001">Навчальний проект</option>
+               <option value="Choosing a course002" selected="selected">Виховний проект</option>
+               <option value="Choosing a course003">Позашкільний проект</option>
+               <option value="Choosing a course004">Навчальний контент</option>
+               <option value="Choosing a course005">Он-лайновий освітній ресурс</option>
+               <option value="Choosing a course006">Навчально-методичне забезпечення</option>
+           </select>
+       </li>
+       <li><label>Навчальна дисципліна (наприклад, біологія)</label><input type="text" size="50" maxlength="50"/></li><br/>
+       <li>Чи була апробована ваша робота?<br/>
+           Так:<input type="radio" name="Answear" value="yes"/>
+           Ні:<input type="radio" name="Answear" value="no"/>
+       </li>
+       <li><label>Якщо так, то на якому рівні?</label><input type="text" size="50" maxlength="50"/></li>
+       <li><label>Повна назва установи, де ви працюєте</label><input type="text" size="50" maxlength="50"/></li>
+       <li><label>Ваша посада</label><input type="text" size="50" maxlength="50"/></li>
+       <li><label>Місто/населений пункт</label><input type="text" size="50" maxlength="50"/></li>
+       <li><label>Область (на вибір 24 області + АР Крим + м. Київ + м.Севастополь)</label><input type="text" size="50" maxlength="50"/></li><br/>
+       <li><label>Мобільний телефон</label><input type="text" size="50" maxlength="50"/></li>
+       <li><label>Електронна пошта</label><input type="text" size="50" maxlength="50"/></li>
+       <li><label>Ви брали участь у попередніх конкурсах «Вчитель-новатор»?</label><input type="text" size="50" maxlength="50"/></li><br/>
+       <li><label>Якщо так, то вкажіть, коли саме.</label><input type="text" size="50" maxlength="50"/></li>
+       <li>Яким чином ви дізналися про конкурс «Вчитель-новатор»? (на вибір, можна декілька варіантів)<br/>
+           <select multiple="multiple" name="select">
+               <option value="choose001">Сайт МОН молодьспорту</option>
+               <option value="choose002">Сайт Майкрософт Україна</option>
+               <option value="choose003">Сайт Мережі «Партнерство в навчанні»</option>
+               <option value="choose004">Обласне управління освіти</option>
+               <option value="choose005">Міське управління освіти</option>
+               <option value="choose006">Osvita.com</option>
+               <option value="choose007">Gurt.org.ua</option>
+               <option value="choose008">Інше</option>
+
+           </select>
+       </li>
+   </ol>
+       <input type="checkbox" name="input_1" value="Consent"/> Я даю згоду на обробку моїх персональних даних і погоджуюся з Політикою конфіденційності (галочка обязательна)
+       <br/>
+       <input type="submit" name="submit" value="Enter"/>
+       <br/>
+       <input type="reset" name="reset" value="Reset" />
+
+
+</body>
+</html>
